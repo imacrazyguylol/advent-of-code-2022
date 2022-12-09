@@ -65,6 +65,8 @@ class Main {
             s = in.nextLine();
         }
 
+        in.close();
+
         int used = calcAll(root);
         int free = 70000000 - used;
         int required = 30000000 - free;

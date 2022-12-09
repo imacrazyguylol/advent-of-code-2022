@@ -65,6 +65,8 @@ class Main {
             s = in.nextLine();
         }
 
+        in.close();
+
         System.out.println(calcAll(root));
     }
 
